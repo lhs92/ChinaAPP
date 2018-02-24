@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ChinaApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ChinaApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ChinaApp:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="controller" />
+          <element id="module-output" name="service" />
+          <element id="module-output" name="common" />
+          <element id="module-output" name="dao" />
+        </element>
+        <element id="directory" name="lib" />
+      </element>
+      <element id="javaee-facet-resources" facet="controller/web/Web" />
+    </root>
+  </artifact>
+</component>
